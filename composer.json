@@ -1,0 +1,27 @@
+{
+    "name": "digitalbiblesociety/dbp-dusk",
+    "description": "Standalone dusk testing for dbp4.org",
+    "require": {
+        "php": ">=7.2",
+        "phpunit/phpunit": "^6.5",
+        "laravel/dusk": "^4.0",
+        "facebook/webdriver": "^1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Bitgood",
+            "email": "jon@dbs.org"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "DigitalBibleSociety\\DBPDusk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DigitalBibleSociety\\DBPDusk\\Tests\\": "tests/"
+        }
+    }
+}
