@@ -8,7 +8,6 @@ use Laravel\Dusk\Browser;
 class AnnotationTest extends DuskTestCase
 {
 
-
     /** @test */
     public function userCanSeeHighlightList()
     {
@@ -22,6 +21,7 @@ class AnnotationTest extends DuskTestCase
                     ->click('#highlights-list-button')
                     ->waitFor('.highlight-item');
         });
+
     }
 
     /** @test */
